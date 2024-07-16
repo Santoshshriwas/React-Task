@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link, Outlet, useNavigate} from "react-router-dom"
-
+// import "../css/Home.css"
 const Home = () => {
   let navigate= useNavigate()
   const Logout=()=>{
@@ -10,7 +10,7 @@ const Home = () => {
     <>
     <nav className='Nabvar'>
       <ul className='logo'><li>HeakerKarnal</li></ul>
-      <ul className="secound-nav">
+      <ul className="second-nav">
      <li> <Link to="display">Display</Link></li>
      <li> <Link to="product">Product</Link></li>
      <li><Link to="search">Search</Link></li>
@@ -23,3 +23,6 @@ const Home = () => {
 }
 
 export default Home
+
+
+

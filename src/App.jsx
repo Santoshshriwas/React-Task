@@ -4,6 +4,7 @@ import Home from './componet/Home'
 import Display from './componet/Display'
 import Product from './componet/Product'
 import Search from './componet/Search'
+import Landing from './componet/Landing'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <>
       <BrowserRouter>
        <Routes>
-        <Route path='/' element={<Home/>}>
+        <Route path='/' element={<Landing/>}/>
+        <Route path='/home' element={<Home/>}>
         <Route path='display' element={<Display/>}/>
         <Route path='product' element={<Product/>}/>
         <Route path='search' element={<Search/>}/>
