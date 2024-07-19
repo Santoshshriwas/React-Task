@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link, Outlet, useNavigate} from "react-router-dom"
-// import "../css/Home.css"
 const Home = () => {
   let navigate= useNavigate()
   const Logout=()=>{

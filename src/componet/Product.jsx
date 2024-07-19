@@ -33,7 +33,6 @@ const Product = () => {
 
     const updatedProducts = [...product, newProduct];
     setProduct(updatedProducts);
-    // Save products array to localStorage
     localStorage.setItem('products', JSON.stringify(updatedProducts));
 
     setData({
